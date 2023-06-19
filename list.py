@@ -1,0 +1,13 @@
+a1=[1,2,3,4,5,6,7,8,9] 
+print("List: ",a1)
+print("Sum: ",sum(a1))
+print("Minimum value: ",min(a1))
+print("Maximum value: ",max(a1))
+a1.sort()
+print("Ascending: ",a1)
+a1.reverse()
+print("Descending: ",a1)
+a2=(a1)                
+print("Tuple: ",a1)
+del(a2)
+print(a2)
